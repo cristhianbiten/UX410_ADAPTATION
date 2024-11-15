@@ -1,0 +1,35 @@
+{
+  "fileName": "manifest",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "appdescr_variant",
+  "reference": "student28.sap.training.dynamicpage",
+  "id": "customer.zux410app10adaptationproject",
+  "namespace": "apps/student28.sap.training.dynamicpage/appVariants/customer.zux410app10adaptationproject/",
+  "version": "0.1.0",
+  "content": [
+    {
+    "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+    "content": {
+        "modelId": "i18n",
+        "bundleUrl": "i18n/i18n.properties",
+        "supportedLocales": [
+            ""
+        ],
+        "fallbackLocale": ""
+    }
+},
+    {
+    "changeType": "appdescr_ui5_setMinUI5Version",
+    "content": {
+        "minUI5Version": "1.96.33"
+    }
+},
+    {
+      "changeType": "appdescr_app_setTitle",
+      "content": {},
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    }
+  ]
+}
